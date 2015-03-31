@@ -114,70 +114,72 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 		
-		calcRoute("Grand Canyon National Park Lodges, 88 Village Loop Drive, Grand Canyon Village, AZ 86023",
-					"Graceland, Elvis Presley Boulevard, Memphis, TN",
-					["Bryce Canyon National Park, Hwy 63, Bryce, UT",
-					"Craters of the Moon National Monument & Preserve, Arco, ID",
-					"Yellowstone National Park, WY 82190",
-					"Pikes Peak, Colorado",
-					"Carlsbad Caverns National Park, Carlsbad, NM",
-					"The Alamo, Alamo Plaza, San Antonio, TX",
-					"Chickasaw National Recreation Area, 1008 W 2nd St, Sulphur, OK 73086",
-					"Toltec Mounds, Scott, AR"]);
+	
+		calcRoute("Church of St Ignatius, Singapore", 
+		"The Church Of Our Lady Of Lourdes, Singapore", 
+		["Church Of St. Mary Of The Angels, Singapore", 
+		"Church of the Holy Cross, Singapore", 
+		"Blessed Sacrament Church, Singapore", 
+		"Church of St Teresa, Singapore", 
+		"Saint Bernadette Church, Singapore", 
+		"Church of the Sacred Heart, Singapore", 
+		"Sacred Heart Church, Singapore", 
+		"Saint Joseph's Church, Singapore"]);
 					
-		calcRoute("Graceland, Elvis Presley Boulevard, Memphis, TN",
-					"Mount Vernon, Fairfax County, Virginia",
-					["Vicksburg National Military Park, Clay Street, Vicksburg, MS",
-					"French Quarter, New Orleans, LA",
-					"USS Alabama, Battleship Parkway, Mobile, AL",
-					"Cape Canaveral, FL",
-					"Okefenokee Swamp Park, Okefenokee Swamp Park Road, Waycross, GA",
-					"Fort Sumter National Monument, Sullivan's Island, SC",
-					"Lost World Caverns, Lewisburg, WV",
-					"Wright Brothers National Memorial Visitor Center, Manteo, NC"]);
-					
-		calcRoute("Mount Vernon, Fairfax County, Virginia",
-					"USS Constitution, Boston, MA",
-					["White House, Pennsylvania Avenue Northwest, Washington, DC",
-					"Maryland State House, 100 State Cir, Annapolis, MD 21401",
-					"New Castle Historic District, Delaware",
-					"Congress Hall, Congress Place, Cape May, NJ 08204",
-					"Liberty Bell, 6th Street, Philadelphia, PA",
-					"Statue of Liberty, Liberty Island, NYC, NY",
-					"The Mark Twain House & Museum, Farmington Avenue, Hartford, CT",
-					"The Breakers, Ochre Point Avenue, Newport, RI"]);
-					
-		calcRoute("USS Constitution, Boston, MA",
-					"Lincoln Home National Historic Site Visitor Center, 426 South 7th Street, Springfield, IL",
-					["Acadia National Park, Maine",
-					"Omni Mount Washington Resort, Mount Washington Hotel Road, Bretton Woods, NH",
-					"Shelburne Farms, Harbor Road, Shelburne, VT",
-					"USS Cod Submarine Memorial, East 9th Street, Cleveland, OH",
-					"Olympia Entertainment, Woodward Avenue, Detroit, MI",
-					"Spring Grove Cemetery, Spring Grove Avenue, Cincinnati, OH",
-					"Mammoth Cave National Park, Mammoth Cave Pkwy, Mammoth Cave, KY",
-					"West Baden Springs Hotel, West Baden Avenue, West Baden Springs, IN",
-					]);
-					
-		calcRoute("Lincoln Home National Historic Site Visitor Center, 426 South 7th Street, Springfield, IL",
-					"Glacier National Park, 64 Grinnell Drive, West Glacier, MT 59936",
-					["Gateway Arch, Washington Avenue, St Louis, MO",
-					"C. W. Parker Carousel Museum, South Esplanade Street, Leavenworth, KS",
-					"Terrace Hill, Grand Avenue, Des Moines, IA",
-					"Taliesin, County Road C, Spring Green, Wisconsin",
-					"Fort Snelling, Tower Avenue, Saint Paul, MN",
-					"Ashfall Fossil Bed, Royal, NE",
-					"Mount Rushmore National Memorial, South Dakota 244, Keystone, SD",
-					"Fort Union Trading Post National Historic Site, Williston, North Dakota 1804, ND",
-					]);
-						
-		calcRoute("Glacier National Park, 64 Grinnell Drive, West Glacier, MT 59936",
-					"Grand Canyon National Park Lodges, 88 Village Loop Drive, Grand Canyon Village, AZ 86023",
-					["Hanford Site, Benton County, WA",
-					"Columbia River Gorge National Scenic Area, Oregon",
-					"Cable Car Museum, 94108, 1201 Mason St, San Francisco, CA 94108",
-					"San Andreas Fault, San Benito County, CA",
-					"Hoover Dam, Boulder City, CO"]);
+		calcRoute('Blessed Sacrament Church, Singapore', 
+		'Church of St Teresa, Singapore', 
+		'Church of the Sacred Heart, Singapore', 
+		'Saint Bernadette Church, Singapore', 
+		"Saint Joseph's Church, Singapore", 
+		'Sacred Heart Church, Singapore', 
+		'The Church Of Our Lady Of Lourdes, Singapore', 
+		'Church of St Ignatius, Singapore', 
+		'Church Of St. Mary Of The Angels, Singapore', 
+		'Church of the Holy Cross, Singapore');
+		
+		calcRoute('Church of the Holy Cross, Singapore', 
+		'Blessed Sacrament Church, Singapore', 
+		'Church of St Teresa, Singapore', 
+		'Saint Bernadette Church, Singapore', 
+		'Church of the Sacred Heart, Singapore', 
+		'Sacred Heart Church, Singapore', 
+		"Saint Joseph's Church, Singapore", 
+		'The Church Of Our Lady Of Lourdes, Singapore', 
+		'Church of St Ignatius, Singapore', 
+		'Church Of St. Mary Of The Angels, Singapore');
+
+		calcRoute('Church of St Ignatius, Singapore', 
+		'Church Of St. Mary Of The Angels, Singapore', 
+		'Church of the Holy Cross, Singapore', 
+		'Blessed Sacrament Church, Singapore', 
+		'Church of St Teresa, Singapore', 
+		'Saint Bernadette Church, Singapore', 
+		'Church of the Sacred Heart, Singapore', 
+		'Sacred Heart Church, Singapore', 
+		"Saint Joseph's Church, Singapore", 
+		'The Church Of Our Lady Of Lourdes, Singapore');
+
+		calcRoute
+		('Church of the Holy Cross, Singapore', 'Blessed Sacrament Church, Singapore', 
+		'Church of St Teresa, Singapore', 'Saint Bernadette Church, Singapore', 
+		'Sacred Heart Church, Singapore', 'Church of the Sacred Heart, Singapore', 
+		"Saint Joseph's Church, Singapore", 'The Church Of Our Lady Of Lourdes, Singapore', 
+		'Church of St Ignatius, Singapore', 'Church Of St. Mary Of The Angels, Singapore');
+		
+		calcRoute
+		('Church of St Ignatius, Singapore', 'Church Of St. Mary Of The Angels, Singapore', 
+		'Church of the Holy Cross, Singapore', 'Blessed Sacrament Church, Singapore', 
+		'Church of St Teresa, Singapore', 'Saint Bernadette Church, Singapore', 
+		'Church of the Sacred Heart, Singapore', 'Sacred Heart Church, Singapore', 
+		"Saint Joseph's Church, Singapore", 'The Church Of Our Lady Of Lourdes, Singapore');
+		
+		calcRoute
+		('Church of the Sacred Heart, Singapore', "Saint Joseph's Church, Singapore", 
+		'The Church Of Our Lady Of Lourdes, Singapore', 'Church of St Ignatius, Singapore', 
+		'Church Of St. Mary Of The Angels, Singapore', 'Church of the Holy Cross, Singapore', 
+		'Blessed Sacrament Church, Singapore', 'Church of St Teresa, Singapore', 
+		'Saint Bernadette Church, Singapore', 'Sacred Heart Church, Singapore');
+		
     </script>
   </head>
   <body>
